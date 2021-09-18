@@ -1,0 +1,80 @@
+body{
+ background: #303238 url("images/header.jpg");
+ color: #f1e9de;
+}
+#formlog{
+    background:#303238 url("images/pic02.jpg");
+    margin: 0 auto;
+    width:600px;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 40px;
+    
+}   
+#crear{
+	 margin-left: 200px;
+
+}
+h1{
+    text-align: center;  
+    font-size:35px;
+}
+h2{
+    text-align: center;  
+    font-size:25px;
+}
+
+
+.form-control{
+    width:200px;
+    margin-top: 50px;   
+}
+
+.form-control:invalid{
+    width:200px;
+    margin-top: 50px;
+    border-color: red;
+    border-width: 2px;
+   
+   
+}
+form label{
+    float: left;
+    width:110px;
+    margin-left: 60px;
+    font-size:18px;
+    
+}
+
+
+#botones{
+    margin-top: 50px;
+    text-align: center;  
+}
+.nav-link,#logo{
+    color: #f1e9de;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+}
+#menu{
+    margin-top: 20px;
+    background:#303238 url("images/pic02.jpg");
+    max-width: calc(100% - 100px);
+    width: 1200px;
+    border-radius: 15px;
+}
+#logo{ 
+   font-size: 25px;
+  
+}
+#titulo{
+    background:rgb(44, 74, 139);
+    height: 50px;  
+
+}
+#tablausuarios{
+	color: #f1e9de;
+	
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <!-- Title Page -->  
+        <title>Login</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        
+    </head>
+    <body>
+        <form id="formlog" action="indexTienda.html" method="POST" >
+          <h1>Registrarse en la Tienda</h1>
+          <h2>Cree un nuevo usuario</h2>
+          <div id="datos">
+          <p id="nombrecompleto" >  
+                <label>Nombre Completo:</label>
+                <input  class="form-control" type="text" name="nombrecompleto" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+            </p>
+            <p id="cedula"> 
+                <label>Cédula:</label>
+                <input  class="form-control"  type="text" patter="[0-9]{4,12}" required>
+                
+            </p>
+            <p id="correo"> 
+                <label>Correo Electronico:</label>
+                <input  class="form-control"  type="email" name="correo" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                
+            </p>
+            <p id="nombre" >  
+                <label>Usuario:</label>
+                <input  class="form-control" type="text" name="usuario" size="20" required>
+            </p>
+            <p id="password"> 
+                <label>Contraseña:</label>
+                <input  class="form-control"  type="password" name="contraseña" size="20" required>
+                
+            </p>
+            <p id="botones" > 
+                <button class="btn btn-primary" type="submit" >Aceptar</button>
+                <button class="btn btn-primary" type="reset" >Cancelar</button>
+            </p>
+            <p id="check" align="center"> 
+                ¿Ya tienes una cuenta? <a href="login.HTML">Inicia sesión</a>
+            </p>
+        </div>  
+       </form>
+    </body>
+</html>
